@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7549106a4389dbd4ba57097a75a11f2a
+timeCreated: 1519375456
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - lazer: {fileID: 1921801432796956, guid: 7c9d1345f72b6d64eba552239b375214, type: 2}
+  - triple: {fileID: 1753162464066254, guid: 4235397500a820746857eec0e2ec89d8, type: 2}
+  - _explosion: {fileID: 1154439656829748, guid: 7f083e3c17301f14db43d8d31106dbc9,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

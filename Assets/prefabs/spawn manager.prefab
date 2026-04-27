@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1560164832100462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4742659491574042}
+  - component: {fileID: 114961244763842490}
+  m_Layer: 0
+  m_Name: spawn manager
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4742659491574042
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560164832100462}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114961244763842490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560164832100462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56722d83c177b4747866a7fabc850665, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemigos:
+  - {fileID: 1313288980930944, guid: bf33179bc2252a5499ec5ae475bea5a5, type: 3}
+  - {fileID: 1748845739956112, guid: a639b981afd5a41478751df62048ac67, type: 3}
+  - {fileID: 1103433714109662, guid: 61e0797088d3f3641bfe1ae33a9b7c7f, type: 3}
+  Seconds_enemigos: 5
+  Asteriodes:
+  - {fileID: 1720496528991100, guid: 7639f77d2d85c8b47a011a831392b288, type: 3}
+  - {fileID: 1098839736360114, guid: a744b8235c194334d8a035df97b5e191, type: 3}
+  - {fileID: 1590373195575200, guid: bfea8baab57ca3046b866ebd2625a321, type: 3}
+  Seconds_Asteriodes: 15
+  Poweup:
+  - {fileID: 1097335306911010, guid: 678e282745bfc1b409b81493e4e99882, type: 3}
+  - {fileID: 1680790159551552, guid: c23462870398017438992618442c1ea0, type: 3}
+  - {fileID: 1358730001878898, guid: 5cdff4f20e41288438daa3c2d5f59eb6, type: 3}
+  Seconds_Powerup: 10
+  text_player_score: {fileID: 0}
+  image_life: {fileID: 0}
+  lifes:
+  - {fileID: 21300018, guid: 8498448b0071e8749af58f348b3321a4, type: 3}
+  - {fileID: 21300000, guid: 8498448b0071e8749af58f348b3321a4, type: 3}
+  - {fileID: 21300002, guid: 8498448b0071e8749af58f348b3321a4, type: 3}
+  - {fileID: 21300004, guid: 8498448b0071e8749af58f348b3321a4, type: 3}
+  text_life_player: {fileID: 0}
+  text_game_score: {fileID: 0}
+  Game_Over: {fileID: 0}
+  reiniciar: {fileID: 0}
+  text_reiniciar: {fileID: 0}
