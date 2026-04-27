@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: d501fb6eb1916e14883f921841827215
+timeCreated: 1768607189
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Milko Denilo
+  fontNames:
+  - Milko Denilo
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d0b920615c42dac43accc99591a65a3d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
