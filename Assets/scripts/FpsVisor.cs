@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
-//using UnityEngine.UI;
+using UnityEngine.UI;
 using System.Collections.Generic;
 
 public class FpsVisor : MonoBehaviour
 {
-    public UnityEngine.UI.Text fpsText;
+    public Text fpsText;
     Vector3 initialLineRenderPosition;
     float fps;
     float msec;

@@ -15,9 +15,10 @@ public class CanvasPause : MonoBehaviour {
 
 	
 
-	void Start(){
+	void Awake(){
 		canvasPausa.enabled = false;
 		Time.timeScale = 1;
+		CursorFalse();
 	}
 	void Update(){
 		if (Input.GetButtonDown ("Cancel")){
@@ -27,7 +28,7 @@ public class CanvasPause : MonoBehaviour {
 	public void Pause(){		
 		canvasPausa.enabled = !canvasPausa.enabled;
 		Time.timeScale = Time.timeScale == 0 ? 1 : 0;
-		Cursor.visible = Cursor.visible;
+		Cursor.visible = !Cursor.visible;
 	}
 
 	

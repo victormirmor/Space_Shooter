@@ -2,9 +2,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
-{   public string ButonRestart="Fire2";
+{   public string ButonRestart="Fire2",message="Press 'R' for Restart" ;
     // 1.1. Instancia Estática (Singleton)
-    // Permite acceso desde cualquier script sin usar Find o GetComponent
     public static GameManager Instance { get; private set; }
 
     // 1.2. Referencias a otros Managers
@@ -20,6 +19,7 @@ public class GameManager : MonoBehaviour
     {
         Singleton();
         ConfigurarDependencias();
+        Inicio();
     }
 
     void ConfigurarDependencias(){
@@ -37,24 +37,18 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    void Start()
-    {
-        // Inicialización basada en la lógica original de GameController.cs
+    void Inicio(){
         isGameOver = false;
         score = 0;
-        
         // Sincronizamos la UI al iniciar
-        if (uiManager != null)
-        {
+        if (uiManager != null){
             uiManager.UpdateScoreDisplay(score);
         }
     }
 
-    void Update()
-    {
+    void Update(){
         // Control del reinicio
-        if (isGameOver && Input.GetButton(ButonRestart))
-        {
+        if (isGameOver && Input.GetButton(ButonRestart)){
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
@@ -74,8 +68,10 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void TriggerGameOver()
-    {
+    public void TriggerGameOver(){
+
+        string mensaje="Use buton "+ ButonRestart;
+
         if (isGameOver) return;
 
         isGameOver = true;
@@ -89,7 +85,7 @@ public class GameManager : MonoBehaviour
         // Ordenamos al UIManager que muestre los mensajes de fin de juego
         if (uiManager != null)
         {
-            uiManager.ShowGameOver("Press 'R' for Restart");
+            uiManager.ShowGameOver(mensaje);
         }
     }
 }
