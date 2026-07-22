@@ -69,7 +69,7 @@ TextureImporter:
       213: 892476134998149120
     second: Atlas2_21
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -86,9 +86,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -120,10 +123,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -648,9 +656,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Atlas2_0: 21300000
+      Atlas2_1: 21300002
+      Atlas2_10: 21300016
+      Atlas2_11: 21300018
+      Atlas2_12: 21300020
+      Atlas2_13: 21300022
+      Atlas2_14: 21300024
+      Atlas2_15: 21300026
+      Atlas2_16: 21300028
+      Atlas2_17: 21300030
+      Atlas2_18: 21300032
+      Atlas2_19: 21300034
+      Atlas2_2: 21300004
+      Atlas2_20: 21300036
+      Atlas2_21: 892476134998149120
+      Atlas2_3: 21300006
+      Atlas2_4: 21300008
+      Atlas2_5: 21300038
+      Atlas2_6: 21300010
+      Atlas2_7: 21300040
+      Atlas2_8: 21300012
+      Atlas2_9: 21300014
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
